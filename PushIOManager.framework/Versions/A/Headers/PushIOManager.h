@@ -20,6 +20,8 @@
 
 FOUNDATION_EXPORT NSString * const PIOMCRawResponseCaptureNotification;
 FOUNDATION_EXPORT NSString * const PIOMCRawResponseValue;
+FOUNDATION_EXPORT NSString * const PIOMCRequestURL;
+
 
 
 /**-----------------------------------------------------------------------------
