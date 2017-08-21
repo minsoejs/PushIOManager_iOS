@@ -13,13 +13,13 @@
 
 
 ### Using [CocoaPods](http://cocoapods.org)
-1. Add the pod `PushIOManager_iOS` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
+**[1.]** Add the pod `PushIOManager_iOS` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
 
   ```ruby
   pod 'PushIOManager_iOS' ,  :git => 'https://github.com/minsoejs/PushIOManager_iOS'
   ```
 
-1. Run `pod install` from Terminal, then open your app's `.xcworkspace` file to launch Xcode.
+**[2.]** Run `pod install` from Terminal, then open your app's `.xcworkspace` file to launch Xcode.
 
 ### Manually from GitHub
 **[1.]** Add the **SQLite** framework to your application target:
@@ -30,7 +30,7 @@
    
 6.32.0 works with the `UserNotifications` framework APIs.  Your mobile application needs to add the **`UserNotifications`** framework.
 
-**[3.]** Enable the **Push Notifications** capability:
+### Enable the **Push Notifications** capability:
 
 Your mobile application needs to add the **Push Notifications** capability, which you can do from the **Capabilities** tab of your application settings.  ![alt text](https://raw.githubusercontent.com/pushio/PushIOManager_iOS/master/NotificationCapabilities.png "Application Capabilities")
    
