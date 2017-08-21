@@ -9,6 +9,19 @@
 * **Supported iOS versions**: PushIO SDK 6.32.0 and later will support iOS 8.0 and later.
 *  **Supported XCode versions**: PushIO SDK 6.32.0 and later is supported by XCode 8.3.2 onwards.
 
+## Setup
+
+
+### Using [CocoaPods](http://cocoapods.org)
+1. Add the pod `PushIOManager_iOS` to your [Podfile](http://guides.cocoapods.org/using/the-podfile.html).
+
+  ```ruby
+  pod 'PushIOManager_iOS' ,  :git => 'https://github.com/minsoejs/PushIOManager_iOS'
+  ```
+
+1. Run `pod install` from Terminal, then open your app's `.xcworkspace` file to launch Xcode.
+
+### Manually from GitHub
 **[1.]** Add the **SQLite** framework to your application target:
    
 6.32.0 uses `sqlite` to store the events (that is, register, engagement, unregister) and sync later. Your mobile application needs to add the **`sqlite3.0.tbd`** framework in your application target.
